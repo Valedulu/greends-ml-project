@@ -26,7 +26,7 @@ This project applies machine learning to predict whether a water sample is safe 
 
 ---
 
-## 🔬 Features
+## Features
 
 | Feature | Description |
 |---|---|
@@ -42,7 +42,7 @@ This project applies machine learning to predict whether a water sample is safe 
 
 ---
 
-## ⚙️ Methods
+## Methods
 
 Each model is wrapped in a **scikit-learn Pipeline** (imputer → scaler → classifier) to prevent data leakage. Hyperparameters were tuned with **GridSearchCV** using **5-fold StratifiedKFold**, optimising F1-score.
 
@@ -66,7 +66,7 @@ Best model: **Random Forest** (ROC-AUC = 0.641)
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Open the notebook in **Google Colab**: upload `water_potability_project.ipynb` and `water_potability.csv`
 2. Uncomment the first cell to install dependencies:
@@ -77,13 +77,13 @@ Best model: **Random Forest** (ROC-AUC = 0.641)
 
 ---
 
-## 🤖 AI Usage
+## AI Usage
 
 Parts of the code in this notebook were generated with AI assistance (Claude, Anthropic). All AI-generated sections are documented with `# prompt:` comments at the start of the relevant code blocks, as required by the course guidelines.
 
 ---
 
-## 📚 References
+## References
 
 - Kadiwal, A. (2021). *Water Quality and Potability*. Kaggle.
 - Géron, A. (2019). *Hands-On Machine Learning with Scikit-Learn, Keras and TensorFlow*. O'Reilly.
