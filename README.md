@@ -54,7 +54,7 @@ Each model is wrapped in a **scikit-learn Pipeline** (imputer → scaler → cla
 
 ---
 
-## 📊 Results (Test Set)
+## Results (Test Set)
 
 | Model | F1 | ROC-AUC | Recall |
 |---|---|---|---|
